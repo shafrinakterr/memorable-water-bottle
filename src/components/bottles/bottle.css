@@ -1,0 +1,28 @@
+.bottle{
+    border: 1px solid yellowgreen;
+    padding: 15px;
+}
+
+img{
+    width: 300px;
+}
+.bottle-container{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+button{
+    width: 50%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    
+}
+
+.cart-img{
+    width: 100px;
+    padding: 5px;
+}
